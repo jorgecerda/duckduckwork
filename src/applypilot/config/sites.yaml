@@ -1,0 +1,63 @@
+# Clean career site registry for ApplyPilot (LATAM-focused 5+5 setup)
+
+# ── Manual-Only ATS Domains ──────────────────────────────────────────────
+manual_ats:
+  - "ibegin.tcsapps.com"
+
+# ── Blocked sites ────────────────────────────────────────────────────────
+# (Empty - Glassdoor and Google Jobs are unblocked now)
+blocked:
+  sites: []
+  url_patterns: []
+
+# ── Blocked SSO domains ──────────────────────────────────────────────────
+blocked_sso:
+  - "accounts.google.com"
+  - "login.microsoftonline.com"
+  - "okta.com"
+  - "auth0.com"
+
+# ── Base URLs for relative link resolution ───────────────────────────────
+base_urls:
+  "Talent.com": "https://www.talent.com"
+  "WeWorkRemotely": "https://weworkremotely.com"
+  "Arc.dev": "https://arc.dev"
+  "HireWithNear": "https://jobs.hirewithnear.com"
+
+sites:
+  # ── 5 Search Job Boards ────────────────────────────────────────────────
+  # (LinkedIn, Indeed, and Glassdoor are queried via JobSpy)
+  
+  - name: "Talent.com"
+    url: "https://www.talent.com/jobs?k={query_encoded}&l={location_encoded}"
+    type: search
+
+  - name: "SimplyHired"
+    url: "https://www.simplyhired.com/search?q={query_encoded}&l={location_encoded}"
+    type: search
+
+  # ── 5 Remote Job Boards ────────────────────────────────────────────────
+  
+  - name: "WeWorkRemotely"
+    url: "https://weworkremotely.com/categories/remote-programming-jobs"
+    type: static
+
+  - name: "RemoteOK"
+    url: "https://remoteok.com/remote-dev-jobs"
+    type: static
+
+  - name: "Remotive"
+    url: "https://remotive.com/remote-jobs/software-dev"
+    type: static
+
+  - name: "Himalayas"
+    url: "https://himalayas.app/jobs/developer"
+    type: static
+
+  - name: "Hire With Near"
+    url: "https://jobs.hirewithnear.com/api/jobs/list?q={query_encoded}"
+    type: api
+
+  - name: "Arc.dev"
+    url: "https://arc.dev/remote-jobs/developer"
+    type: static

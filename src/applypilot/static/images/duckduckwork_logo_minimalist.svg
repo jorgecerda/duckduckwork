@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="256" cy="256" r="236" />
+    </clipPath>
+  </defs>
+
+  <!-- Outer Ring Accent -->
+  <circle cx="256" cy="256" r="246" fill="#facc15" />
+  
+  <!-- Main Circle Background -->
+  <circle cx="256" cy="256" r="226" fill="#241244" />
+
+  <!-- Minimalist Vector Duck Character Group -->
+  <g clip-path="url(#circle-clip)">
+    <!-- Sleek Collar & Neck (Purple cutouts create collar geometry) -->
+    <path d="M 180 340 L 256 410 L 332 340 L 310 290 L 256 315 L 202 290 Z" fill="#ffffff" opacity="0.05" />
+
+    <!-- Minimalist Duck Head & Neck (Golden Yellow #facc15) -->
+    <!-- Head circle + beak flow -->
+    <path d="
+      M 256 120 
+      A 95 95 0 0 1 351 215 
+      C 351 235 340 250 325 260
+      C 340 262 385 260 405 245
+      C 415 238 425 248 420 260
+      C 405 295 355 310 320 305
+      L 320 340
+      L 192 340
+      L 192 300
+      C 165 285 161 245 161 215
+      A 95 95 0 0 1 256 120 Z
+    " fill="#facc15" />
+
+    <!-- Duck Eye (Minimalist Dot) -->
+    <circle cx="230" cy="200" r="12" fill="#241244" />
+
+    <!-- Minimalist Beak Accent (#f97316 Warm Orange) -->
+    <path d="
+      M 315 235 
+      C 350 235 390 242 410 248
+      C 400 275 355 295 318 285
+      C 310 270 310 250 315 235 Z
+    " fill="#f97316" />
+
+    <!-- Sharp Minimalist Emerald Tie (#10b981) -->
+    <!-- Tie Knot -->
+    <polygon points="236,310 276,310 270,335 242,335" fill="#059669" />
+    <!-- Tie Body -->
+    <polygon points="242,335 270,335 282,430 256,465 230,430" fill="#10b981" />
+  </g>
+</svg>

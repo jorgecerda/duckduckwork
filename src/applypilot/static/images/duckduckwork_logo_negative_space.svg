@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background Container -->
+  <rect width="512" height="512" rx="100" fill="#241244" />
+
+  <!-- Ultra-Minimalist Solid Duck Silhouette with Negative Space Tie Cutout -->
+  <g transform="translate(0, 10)">
+    <!-- Main Solid Yellow Duck Silhouette (#facc15) -->
+    <path d="
+      M 345 155 
+      C 300 155 275 180 270 205
+      C 268 185 240 185 200 205
+      C 180 215 170 230 185 235
+      C 220 245 255 245 260 255
+      C 262 260 255 275 240 285
+      C 200 300 130 285 100 340
+      C 80 375 105 400 145 400
+      L 340 400
+      C 390 400 425 365 425 315
+      C 425 240 395 155 345 155 Z
+    " fill="#facc15" />
+
+    <!-- Negative Space Cutout for Collar & Tie (Reveals Purple Background #241244) -->
+    <!-- Collar Cutout -->
+    <polygon points="275,255 315,255 295,275" fill="#241244" />
+    <!-- Tie Knot Cutout -->
+    <polygon points="285,275 305,275 302,295 288,295" fill="#241244" />
+    <!-- Tie Blade Cutout -->
+    <polygon points="288,295 302,295 310,365 295,385 280,365" fill="#241244" />
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "description": "Voice DNA configuration: authentic human tone guidelines and banned AI vocabulary.",
+  "banned_words": [
+    "delve", "realm", "harness", "unlock", "tapestry", "paradigm", "cutting-edge",
+    "revolutionize", "landscape", "intricate", "crucial", "pivotal", "surpass",
+    "meticulously", "vibrant", "unparalleled", "underscore", "leverage", "synergy",
+    "innovative", "game-changer", "testament", "commendable", "meticulous",
+    "highlight", "emphasize", "boast", "groundbreaking", "align", "foster",
+    "showcase", "enhance", "holistic", "garner", "accentuate", "pioneering",
+    "trailblazing", "unleash", "versatile", "transformative", "redefine",
+    "seamless", "optimize", "scalable", "robust", "breakthrough", "empower",
+    "streamline", "frictionless", "elevate", "adaptive", "effortless",
+    "data-driven", "insightful", "proactive", "mission-critical", "visionary",
+    "disruptive", "reimagine", "unprecedented", "intuitive", "leading-edge",
+    "synergize", "democratize", "accelerate", "state-of-the-art", "dynamic",
+    "immersive", "predictive", "transparent", "proprietary", "integrated",
+    "plug-and-play", "turnkey", "future-proof", "paradigm-shifting", "supercharge",
+    "enduring", "interplay", "valuable", "captivate"
+  ],
+  "banned_phrases": [
+    "in today's",
+    "serves as",
+    "stands as",
+    "marks a",
+    "represents a",
+    "boasts a",
+    "features a",
+    "offers a",
+    "testament to",
+    "it is worth noting"
+  ],
+  "pacing_rules": [
+    "Short paragraphs: 1-2 sentences default, 3 sentences max.",
+    "Get straight to the point: no warm-up laps or empty introductory filler.",
+    "Vary sentence length: short punchy lines mixed with concrete evidence.",
+    "Direct active voice: use 'I' and 'you', avoiding passive corporate constructions.",
+    "Concrete facts over buzzwords: specific tools, metrics, and outcomes instead of abstract claims.",
+    "Physical action verbs over corporate metaphors (built, designed, shipped, cut, fixed, deployed).",
+    "Never use em dashes (—). Use commas, periods, or parentheses instead."
+  ]
+}
