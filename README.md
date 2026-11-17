@@ -1,7 +1,14 @@
+<div align="center">
+  <a href="https://ddw.crda.dev">
+    <img src="docs/images/banner.png" alt="duckduckwork — ai job search engine & crm" width="100%" />
+  </a>
+</div>
+
 # duckduckwork — autonomous ai job search engine & career crm
 
 high-performance, local-first job discovery engine, candidate-job fit evaluation system, ats resume tailor, and interactive career crm web dashboard.
 
+[![website: ddw.crda.dev](https://img.shields.io/badge/website-ddw.crda.dev-8b5cf6.svg)](https://ddw.crda.dev)
 [![license: mit](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![python: 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![ai: multi-provider](https://img.shields.io/badge/AI-Gemini%20%7C%20OpenAI%20%7C%20Ollama%20%7C%20Groq-orange.svg)](https://ai.google.dev/)

@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Fully integrated light and dark theme styles and responsive mobile layout with touch-friendly controls.
 - **Streamlined Documentation & Reference Visuals**:
   - Restructured `README.md` into a concise, developer-friendly guide with 0 emojis.
+  - Added official repository hero banner `docs/images/banner.png` matching the Open Graph visual identity of `https://ddw.crda.dev`.
   - Formally documented ApplyPilot as the internal underlying discovery and matching engine behind the public DuckDuckWork brand.
   - Added native `duckduckwork` and `ddw` console script entry points in `pyproject.toml` alongside `applypilot`.
   - Embedded 16:10 light-theme reference screenshots in README (3-step onboarding wizard, job discovery & candidate crm, job copilot & fit evaluation, and search tab roi & funnel analytics) under `docs/images/`.
